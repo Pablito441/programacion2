@@ -1,14 +1,14 @@
-package Ejercicio_en_clase;
+package Ejercicio_en_clase2;
 class Empleado{
     private String nombre;
 
+
     public Empleado(){
-
     }
-
     public Empleado(String nombre){
         this.nombre = nombre;
     }
+
     public String getNombre() {
         return nombre;
     }
@@ -19,7 +19,7 @@ class Empleado{
 
     @Override
     public String toString(){
-        return "Hola";
+        return "Empleado [nombre = " + nombre + "]";
     }
 
 }
