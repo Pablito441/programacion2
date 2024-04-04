@@ -2,9 +2,6 @@ package Ejercicio_en_clase2;
 class Empleado{
     private String nombre;
 
-
-    public Empleado(){
-    }
     public Empleado(String nombre){
         this.nombre = nombre;
     }

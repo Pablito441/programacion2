@@ -1,8 +1,6 @@
 package Ejercicio_en_clase2;
 class Operario extends Empleado {
     private String cargo;
-    public Operario() {
-    }
     public Operario(String nombre, String cargo) {
         super(nombre);
         this.cargo = cargo;
@@ -20,4 +18,6 @@ class Operario extends Empleado {
     public String toString() {
         return "Operario [nombre=" + getNombre() + ", cargo=" + cargo + "]";
     }
+    
+
 }
