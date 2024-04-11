@@ -1,4 +1,6 @@
 package Ejercicio_Interfaces;
 
-public class Personaje {
+public interface Personaje {
+    int atacar();
+    int defender(int damage);
 }
